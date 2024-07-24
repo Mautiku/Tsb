@@ -1,6 +1,5 @@
--- i recommended being invisible during the message pop up so they wont realize that
+-- make sure you hide from them during your message pop ups
 player =  "S"
 fakemsg = "You can now access the KJ test on a private server."
-message = "###########                                                                                                                                                      ["..tostring(player).."] "..tostring(fakemsg)
+message = "###########                                                                                                                                     ["..tostring(player).."] "..tostring(fakemsg)
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message, "All")
- 
